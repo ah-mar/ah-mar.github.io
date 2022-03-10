@@ -35,7 +35,7 @@ section {
 
 .separator {
   background-color: var(--border-color);
-  height: 150px;
+  height: 100px;
   width: 4px;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +48,7 @@ h2 {
 
 a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px;
   font-weight: bold;
   text-decoration: none;
   color: #02199e;
@@ -60,9 +60,17 @@ a:focus {
   transform: scale(1.1);
 }
 
+ul {
+  list-style-type: none;
+}
+
 @media (min-width: 700px) {
   h2 {
     font-size: 2.5rem;
+  }
+
+  .separator {
+    height: 100px;
   }
 }
 
@@ -76,20 +84,22 @@ a:focus {
   padding: 1rem;
   background-color: white;
   position: fixed;
-  top: 0;
   z-index: 999;
+  top: 0;
   width: 100%;
 }
 
 .nav-list {
-  text-align: right;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .nav-link {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 /* Intro Section */
@@ -166,6 +176,7 @@ main {
 }
 
 .about-title {
+  /* margin-bottom: 1rem; */
 }
 
 .about-content {
@@ -219,7 +230,6 @@ main {
 }
 
 .skill-title {
-  /*   font-size: 1.1rem; */
 }
 
 .skill-list {
@@ -299,7 +309,6 @@ main {
 }
 
 .project-footer {
-  /* margin-top: 8rem; */
 }
 
 .project-tag {
@@ -333,31 +342,26 @@ main {
 
 .contact-section {
   margin-bottom: 6rem;
-  min-height: 400px;
 }
 
 .contact {
-  /* text-align: center; */
-  padding: 2rem;
 }
 
 .contact-title {
-  margin-bottom: 3rem;
 }
 
 .contact-text {
   font-size: 1.5rem;
+  margin-top: 2rem;
   text-align: center;
-  margin-bottom: 1rem;
 }
 
 .contact-social {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 2rem;
-  padding: 1rem;
 }
 
 .contact-link {
-  margin-right: 20px;
 }
