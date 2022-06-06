@@ -46,7 +46,6 @@ h2 {
   color: var(--body-bg-color);
 }
 p {
-
 }
 
 a {
@@ -178,15 +177,14 @@ main {
 .about-section {
 }
 
-  .about-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-  }
+.about-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
 
 .about-title {
-
 }
 
 .about-background {
@@ -194,12 +192,11 @@ main {
 }
 
 .about-content {
-  
 }
 
- .about-photo {
-    order: -1
- }
+.about-photo {
+  order: -1;
+}
 
 @media (min-width: 700px) {
   .about-layout {
@@ -208,7 +205,6 @@ main {
 
   .about-content {
     width: 50%;
-    
   }
 
   .about-background {
