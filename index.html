@@ -37,7 +37,7 @@
           <h2 class="title"><span>Hi, my name is</span> Ahmar Ali</h2>
           <p class="subtitle">I build, on the web and on the ground.</p>
           <p class="description">
-            I’m a junior frontend developer with knowledge of React, Javascript,
+            I’m a frontend developer with knowledge of Next JS,  React, Javascript,
             CSS And HTML. <br />
             I am also a certified Project Management Professional (PMP)
           </p>
@@ -70,7 +70,7 @@
               online tutorials. Then one curiosity led to another and I learned
               HTML, CS, JS, React and was making some fun applications using it.
               I also discovered other technologies on the way. I tried designing
-              with UI principles, frameworks like Vue and Svelte, and CSS
+              with UI principles, frameworks like Next JS, Vue and Svelte, and CSS
               technologies like BEM, Sass, Less, Bootstrap, Tailwind, Bulma and
               styled components.
             </p>
@@ -119,7 +119,9 @@
               <li class="skill-item">Organized structured CSS.</li>
               <li class="skill-item">Responsive mobile-first layouts.</li>
               <li class="skill-item">UI Design Principles.</li>
-              <li class="skill-item">CSS Libraries and processors.</li>
+              <li class="skill-item">
+                CSS Libraries and processors- Tailwind, LESS, SASS
+              </li>
             </ul>
             <div class="skill-footer">
               <span class="skill-tag">Grid</span>
@@ -134,6 +136,7 @@
           <div class="skill-card">
             <h3 class="skill-title">Javascript- ES6+</h3>
             <ul class="skill-list">
+              <li class="skill-item">Typescript.</li>
               <li class="skill-item">Modern JS - upto ES2021.</li>
               <li class="skill-item">HTML control with DOM API</li>
               <li class="skill-item">
@@ -154,12 +157,12 @@
             <h3 class="skill-title">React</h3>
             <ul class="skill-list">
               <li class="skill-item">Modern React with Hooks.</li>
-              <li class="skill-item">Multi-page app with routing</li>
-              <li class="skill-item">Backend with Firebase database.</li>
+              <li class="skill-item">Routing with react-router</li>
+              <li class="skill-item">CSS-in-JS libraries -tailwind, styled components</li>
               <li class="skill-item">Use of Controlled Forms</li>
+              <li class="skill-item">State management with redux/recoil</li>
             </ul>
             <div class="skill-footer">
-              <span class="skill-tag">Class Components</span>
               <span class="skill-tag">Functional Components</span>
               <span class="skill-tag">Hooks</span>
               <span class="skill-tag">Controlled Forms</span>
@@ -167,8 +170,24 @@
               <span class="skill-tag">Refs</span>
               <span class="skill-tag">React Router</span>
               <span class="skill-tag">Styled Components</span>
-              <span class="skill-tag">Multi-page Apps</span>
-              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">Redux/ Recoil</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3 class="skill-title">Next.JS</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Multi-page apps with page routing</li>
+              <li class="skill-item">Server Side Rendering for dynamic pages</li>
+              <li class="skill-item">Static Site Generation for static pages</li>
+              <li class="skill-item">Next-auth authentication with google/facebook/twitter</li>
+              <li class="skill-item">Next-auth authentication with google/facebook/twitter</li>
+            </ul>
+            <div class="skill-footer">
+              <span class="skill-tag">SSR</span>
+              <span class="skill-tag">SSG</span>
+              <span class="skill-tag">API Routes</span>
+              <span class="skill-tag">Page Routing</span>
             </div>
           </div>
 
@@ -177,9 +196,14 @@
             <ul class="skill-list">
               <li class="skill-item">Version Control with Git</li>
               <li class="skill-item">Remote repositories with Github</li>
-              <li class="skill-item">App hosting with Netlify.</li>
               <li class="skill-item">
-                NoSQL DB and Authentication with Firebase.
+                App hosting with Netlify/ Vercel/ Firebase.
+              </li>
+              <li class="skill-item">
+                SQL/ NoSQL DB with Firebase, MongoDB, Supabase.
+              </li>
+              <li class="skill-item">
+                CMS with Sanity IO, Strapi, Ghost and Wordpress.
               </li>
               <li class="skill-item">Basic UI design with Figma.</li>
             </ul>
@@ -187,8 +211,9 @@
               <span class="skill-tag">Git</span>
               <span class="skill-tag">Github</span>
               <span class="skill-tag">Netlify</span>
-              <span class="skill-tag">Firebase Firestore</span>
-              <span class="skill-tag">Firebase Authentication</span>
+              <span class="skill-tag">Vercel</span>
+              <span class="skill-tag">Database</span>
+              <span class="skill-tag">CMS</span>
               <span class="skill-tag">Figma</span>
             </div>
           </div>
@@ -204,25 +229,25 @@
           <div class="project-image-container">
             <img
               class="project-image"
-              src="./images/insta.png"
-              alt="insta app"
+              src="./images/fbook.webp"
+              alt="facebook app"
             />
           </div>
 
           <div class="project-content">
             <div class="project-header">
-              <h3 class="project-title">Instagram Clone</h3>
+              <h3 class="project-title">Facebook Clone</h3>
               <div class="project-links">
                 <a
                   class="project-link"
-                  href="https://optimistic-panini-794b1c.netlify.app"
+                  href="https://social-book-two.vercel.app/"
                   target="_blank"
                 >
                   Live
                 </a>
                 <a
                   class="project-link"
-                  href="https://github.com/ah-mar/insta-copy"
+                  href="https://github.com/ah-mar/social-book"
                   target="_blank"
                 >
                   Code
@@ -231,27 +256,264 @@
             </div>
 
             <p class="project-description">
-              A limited functionality instagram clone app made with React and
-              Vanilla CSS. The app uses firebase authorization to signup and
-              login users. Feed page and Profile page is displayed only with
-              data retrieved from firestore firebase. Page routing uses a react
-              router and is conditional on user login.
+              A limited functionality facebbok clone app made with Next JS and
+              Tailwind CSS. The app uses next-auth with facebook login for user
+              authentication. Firebase is used as the backend database and Users
+              can post comments and upload photos.
             </p>
 
             <div class="project-footer">
+              <span class="project-tag">Next JS</span>
+              <span class="project-tag">Tailwind CSS</span>
               <span class="project-tag">React</span>
-              <span class="project-tag">Hooks</span>
-              <span class="project-tag">React-Router</span>
-              <span class="project-tag">Firebase Authentication</span>
+              <span class="project-tag">Facebook Authentication</span>
               <span class="project-tag">Firebase Firestore</span>
-              <span class="project-tag">CSS</span>
+              <span class="project-tag">Server Side Rendering</span>
             </div>
           </div>
         </div>
 
         <div class="project-hero">
           <div class="project-image-container">
-            <img class="project-image" src="./images/news.png" alt="new app" />
+            <img
+              class="project-image"
+              src="./images/gdocs.webp"
+              alt="facebook app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Google Docs Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://g-docs.vercel.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/web-docs"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A Google Docs clone app made with Next JS and Tailwind CSS. The
+              project use draft js and react-draft-wysiwyg for rich text editor.
+              The app uses next-auth with google login for user authentication.
+              Firebase is used as the backend database.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">Next JS</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Google Authentication</span>
+              <span class="project-tag">Firebase Firestore</span>
+              <span class="project-tag">Draft js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/amazon.webp"
+              alt="amazon app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Amazon Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://shop-build-ah-mar.vercel.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/shop-build"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              An Amazon clone app made with Next JS and Tailwind CSS. The app
+              uses Redux toolkit for state management, next-auth with facebook
+              login for user authentication. Firebase is used as the backend
+              database and Stripe API for checkout.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">Next JS</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Redux Toolkit</span>
+              <span class="project-tag">Facebook Authentication</span>
+              <span class="project-tag">Firebase Firestore</span>
+              <span class="project-tag">Stripe API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/tweeter.webp"
+              alt="twitter app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Twitter Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://talker.vercel.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/talker-build"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A twitter clone app made with Next JS and Tailwind CSS. Sanity CMS
+              for data storage and next-auth for user authentication for the
+              backend. The app use server side rendering to fetch tweets.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">Next JS</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Twitter Authentication</span>
+              <span class="project-tag">Sanity CMS</span>
+              <span class="project-tag">Server Side Rendering</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/medium.webp"
+              alt="medium clone app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Medium Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://small-medium-eta.vercel.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/small-medium"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A medium clone -blogging app made with Next JS and Tailwind CSS.
+              The app use server side rendering for the home pages and static
+              side generation for the blog pages. The app uses Sanity CMS for
+              backend.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">Next JS</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Sanity CMS</span>
+              <span class="project-tag">Static Site Generation</span>
+              <span class="project-tag">Server Side Rendering</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/aBnb.webp"
+              alt="airBnb Clone app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">AirBnb Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://vercel.com/ah-mar/where-bnb"
+                  target="_blank"
+                >
+                  Live
+                </a>
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/where-bnb"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A limited functionality AirBnb clone app made with Next JS and
+              Tailwind CSS. This homepage use static site generation. The app
+              uses hardcoded data for properties but with mapbox integration to
+              show their loaction on the map.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">Next JS</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Mapbox</span>
+              <span class="project-tag">Static Siite Generation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img class="project-image" src="./images/news.webp" alt="new app" />
           </div>
 
           <div class="project-content">
@@ -296,25 +558,25 @@
           <div class="project-image-container">
             <img
               class="project-image"
-              src="./images/movie.png"
-              alt="movies app"
+              src="./images/hulu.webp"
+              alt="hulu app"
             />
           </div>
 
           <div class="project-content">
             <div class="project-header">
-              <h3 class="project-title">Movie App</h3>
+              <h3 class="project-title">Hulu Clone</h3>
               <div class="project-links">
                 <a
                   class="project-link"
-                  href="https://movies-next-one.vercel.app/"
+                  href="https://vercel.com/ah-mar/movies-clone"
                   target="_blank"
                 >
                   Live
                 </a>
                 <a
                   class="project-link"
-                  href="https://github.com/ah-mar/movies-next"
+                  href="https://github.com/ah-mar/movie-list"
                   target="_blank"
                 >
                   Code
@@ -323,27 +585,28 @@
             </div>
 
             <p class="project-description">
-              A movies top list app made with Next JS and Vanilla CSS. This is a
-              Next JS project example. The project used movies DB as a data
-              source.The top movies of the week uses Server side generated page
-              every time a request is made. The top movies of all time uses
-              Static site generation for both the main page and for the
-              dynamically generated pages for the each movies on the list.
+              A Hulu clone app made with Next JS and Tailwind CSS. The project
+              used movies DB as a data source.The app uses Server side generated
+              page every time a request is made.
             </p>
 
             <div class="project-footer">
               <span class="project-tag">Next JS</span>
               <span class="project-tag">React</span>
-              <span class="project-tag">SSG</span>
+              <span class="project-tag">Tailwind CSS</span>
               <span class="project-tag">SSR</span>
-              <span class="project-tag">CSS</span>
+              <span class="project-tag">REST API</span>
             </div>
           </div>
         </div>
 
         <div class="project-hero">
           <div class="project-image-container">
-            <img class="project-image" src="./images/todo.png" alt="todo app" />
+            <img
+              class="project-image"
+              src="./images/todo.webp"
+              alt="todo app"
+            />
           </div>
 
           <div class="project-content">
@@ -388,7 +651,7 @@
           <div class="project-image-container">
             <img
               class="project-image"
-              src="./images/notes.png"
+              src="./images/notes.webp"
               alt="notes app"
             />
           </div>
