@@ -37,8 +37,8 @@
           <h2 class="title"><span>Hi, my name is</span> Ahmar Ali</h2>
           <p class="subtitle">I build, on the web and on the ground.</p>
           <p class="description">
-            I’m a frontend developer with knowledge of Next JS, React,
-            Javascript, CSS And HTML. <br />
+            I’m a frontend developer with knowledge of Next JS, React, React
+            Native, Javascript, CSS And HTML. <br />
             I am also a certified Project Management Professional (PMP)
           </p>
           <a href="#contact" class="intro-contact">Get in Touch</a>
@@ -157,22 +157,20 @@
             <h3 class="skill-title">React</h3>
             <ul class="skill-list">
               <li class="skill-item">Modern React with Hooks.</li>
-              <li class="skill-item">Routing with react-router</li>
+              <li class="skill-item">Native Apps with React native</li>
+              <li class="skill-item">State management with redux/recoil</li>
               <li class="skill-item">
                 CSS-in-JS libraries -tailwind, styled components
               </li>
               <li class="skill-item">Use of Controlled Forms</li>
-              <li class="skill-item">State management with redux/recoil</li>
             </ul>
             <div class="skill-footer">
-              <span class="skill-tag">Functional Components</span>
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">Redux/ Recoil</span>
               <span class="skill-tag">Hooks</span>
-              <span class="skill-tag">Controlled Forms</span>
               <span class="skill-tag">Contexts</span>
-              <span class="skill-tag">Refs</span>
               <span class="skill-tag">React Router</span>
               <span class="skill-tag">Styled Components</span>
-              <span class="skill-tag">Redux/ Recoil</span>
             </div>
           </div>
 
@@ -186,9 +184,7 @@
               <li class="skill-item">
                 Static Site Generation for static pages
               </li>
-              <li class="skill-item">
-                Next-auth authentication with google/facebook/twitter
-              </li>
+              <li class="skill-item">API routes and cloud functions</li>
               <li class="skill-item">
                 Next-auth authentication with google/facebook/twitter
               </li>
@@ -205,10 +201,7 @@
             <h3 class="skill-title">Other Tools and Technologies</h3>
             <ul class="skill-list">
               <li class="skill-item">Version Control with Git</li>
-              <li class="skill-item">Remote repositories with Github</li>
-              <li class="skill-item">
-                App hosting with Netlify/ Vercel/ Firebase.
-              </li>
+
               <li class="skill-item">
                 SQL/ NoSQL DB with Firebase, MongoDB, Supabase.
               </li>
@@ -235,6 +228,7 @@
       <section class="portfolio-section" id="portfolio">
         <h2 class="portfolio-title">Portfolio</h2>
 
+        <!-- Facebook -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -283,12 +277,13 @@
           </div>
         </div>
 
+        <!-- Google Docs -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
               class="project-image"
               src="./images/gdocs.webp"
-              alt="facebook app"
+              alt="Google Docs app"
             />
           </div>
 
@@ -331,6 +326,7 @@
           </div>
         </div>
 
+        <!-- Amazon -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -379,6 +375,7 @@
           </div>
         </div>
 
+        <!-- Twitter -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -426,6 +423,162 @@
           </div>
         </div>
 
+        <!-- Uber -->
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img class="project-image" src="./images/Uber.png" alt="Uber app" />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Uber Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/uber-build"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A React native app made with expo and styled with tailwind CSS.
+              The App uses redux toolkit for state management. The maps are
+              displayed using react native maps and map data and directions are
+              queried from Google Places API and Google Directions API.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">React Native</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Redux Toolkit</span>
+              <span class="project-tag">Maps</span>
+              <span class="project-tag">Google Places API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tinder -->
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/Tinder_Linear.png"
+              alt="Tinder app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Tinder Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/tinder"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A React native app made with expo and styled with tailwind CSS.
+              The app implememnts matching and chat with matched users. The App
+              uses Google Authentication with Firebase and firebase firestore as
+              database. Context API is used for storing auth state globally.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">React Native</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Google Auth</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">Context API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deliveroo -->
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/Deliveroo_linear.png"
+              alt="Tinder app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Deliveroo Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/deliveroo"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A React native app made with expo and styled with tailwind CSS.
+              Sanity CMS is used for backend database. Redux toolkit is used for
+              managing state.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">React Native</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Sanity CMS</span>
+              <span class="project-tag">Redux Toolkit</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Signal -->
+        <div class="project-hero">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./images/Signal_Linear.png"
+              alt="Signal app"
+            />
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Signal Clone</h3>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/ah-mar/signal"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+
+            <p class="project-description">
+              A React native app made with expo and styled with tailwind CSS.
+              Firebase is used for user authentication and as backend database.
+            </p>
+
+            <div class="project-footer">
+              <span class="project-tag">React Native</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Firebase Authentication</span>
+              <span class="project-tag">Firebase Firestore</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Medium -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -474,6 +627,7 @@
           </div>
         </div>
 
+        <!-- AirBnb -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -521,6 +675,7 @@
           </div>
         </div>
 
+        <!-- News App -->
         <div class="project-hero">
           <div class="project-image-container">
             <img class="project-image" src="./images/news.webp" alt="new app" />
@@ -564,6 +719,7 @@
           </div>
         </div>
 
+        <!-- Hulu -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -610,6 +766,7 @@
           </div>
         </div>
 
+        <!-- Todo App -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -657,6 +814,7 @@
           </div>
         </div>
 
+        <!-- Notes App -->
         <div class="project-hero">
           <div class="project-image-container">
             <img
@@ -702,6 +860,7 @@
           </div>
         </div>
 
+        <!-- TV Show Search -->
         <div class="projects-grid">
           <div class="project-content project-content-border">
             <div class="project-header">
